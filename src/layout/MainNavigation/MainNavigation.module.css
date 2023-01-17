@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 20px;
+}
+.mainHeader {
+  background-color: crimson;
+  padding: 20px;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+}
+.links li {
+  font-size: 1.2rem;
+  color: #ffcbcb;
+  font-weight: 500;
+}
+.links li:hover {
+  color: white;
+  cursor: pointer;
+}
